@@ -1,13 +1,13 @@
-html,body {
+html,
+body {
     padding: 0;
-    margin: 0; 
-    /* No space white above navigation bar is left */
+    margin: 0;
 }
 
 .navbar {
     background-color: pink;
     padding: 12px 14px;
-    color: white; 
+    color: white;
     text-align: center;
     font-size: 20px;
 }
@@ -21,12 +21,14 @@ html,body {
     background-color: white;
     padding: 12px 14px;
 }
+
 .navbar a:visited {
-    color:deeppink; /* Set the color of visited links */
+    color: deeppink;
 }
+
 .demo-wrap {
     position: relative;
-    margin-top: 0px; /* Add some margin to create space between the navbar and the image */
+    margin-top: 0px;
     overflow: hidden;
 }
 
@@ -35,14 +37,12 @@ html,body {
     display: block;
     position: absolute;
     width: 100%;
-    min-height: 150vh;
+    min-height: 100vh;
     opacity: 0.6;
     background-image: url('https://s.yimg.com/ny/api/res/1.2/HinSPwTD1aEzgQb3d0uvow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/gamesradar_237/41970791b786a4e338df7a1a4521334c');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-    top: 0;
-    left: 0;
 }
 
 .demo-content {
@@ -52,67 +52,59 @@ html,body {
     align-items: center;
     color: white;
     font-style: italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.about {
-    margin-top: 0px;
+.container {
+    margin-top: 20px;
 }
-.about .about-content{
+
+.about .about-content {
     display: flex;
 }
-.about h1{
-    text-align: center;
-}
-.about img{
+
+.about img {
     max-width: 350px;
 }
 
-/* Flex gives us a way to set our text in a block format, and give it a group */
-
-.about p{
+.about p {
     margin-left: 20px;
-    font-size: 18x;
+    font-size: 18px;
 }
 
-.about button{
+.about button {
     margin-left: 20px;
     color: coral;
     background-color: blanchedalmond;
 }
 
-.services h1{
-    text-align: center
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
 }
 
 .card {
     padding: 30px 5px;
-    background-color: rgb(198, 137, 171); 
-    margin: 60px;
-    border: solid rgb(237, 124, 124);
     margin: 20px 30px;
+    text-align: justify;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.contact h1 {
     text-align: center;
 }
 
-.projects h1{
-    text-align: center;
-}
-
-.pcard {
-    padding: 30px 5px;
-    background-color: rgb(137, 183, 198); 
-    margin: 60px;
-    border: solid rgb(124, 192, 237);
-    margin: 20px 30px;
-    text-align: center;
-}
-
-.contact h1{
-    text-align: center;
-}
-
-.input{
+.input {
     margin: 0px 300px;
     padding: 2px;
-    margin-bottom:5px;
+    margin-bottom: 5px;
 }
